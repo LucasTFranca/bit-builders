@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 4vh;
+  margin-top: 8vh;
+}
+
+.header-container h1 {
+  font-family: 'Orbitron';
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 52px;
+  width: 32ch;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+}
+
+.header-container h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.event-information-container {
+  display: flex;
+  flex-direction: row;
+  width: 71vh;
+  justify-content: space-between;
+}
+
+.event-information-container button {
+  width: 17vh;
+  border: none;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 16px;
+  margin-left: 0.8vh;
+  box-shadow: -0.8vh 0.8vh 0 0 black;
+}
+
+.event-information-container span {
+  margin-right: 1vh;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.event-information-container div {
+  background: #F2B630;
+  height: 42px;
+  padding-right: 2vh;
+  padding-left: 2vh;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
