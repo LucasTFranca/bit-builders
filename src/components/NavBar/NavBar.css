@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.navbar-container {
+  display: flex;
+  margin-top: 3vh;
+  justify-content: space-between;
+}
+
+.contact-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 22vh;
+}
+
+.contact-button {
+  color: black;
+  background: #F9C654;
+  border: none;
+  align-self: right;
+  height: 20px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+#email-button {
+  margin-right: 4vh;
+}
