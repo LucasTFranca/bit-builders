@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 16vh;
+  height: 60vh;
+  width: 50%;
+}
+
+.content-container h1 {
+  font-family: 'Orbitron';
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.content-container h2 {
+  font-family: 'Orbitron';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.content-container p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  width: 62ch;
+}
+
+.content-container ul {
+  font-family: 'Roboto';
+  font-weight: 400;
+  list-style-type: none;
+  margin-left: 1.5em;
+}
+
+.content-container li {
+  position: relative;
+}
+
+.content-container li::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  left: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: black;
+}
+
+.content-title-container {
+  margin-bottom: 4vh;
+}
