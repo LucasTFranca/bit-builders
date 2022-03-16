@@ -1,7 +1,22 @@
 .navbar-header-wrap {
   background: #F9C654;
   padding-top: 1px;
-  padding-left: 4vh;
-  padding-right: 4vh;
+  padding-left: 3em;
+  padding-right: 3em;
   height: 50vh;
+}
+
+.lecture-wrap {
+  margin-top: 6vh;
+  padding-left: 6em;
+  padding-right: 6em;
+}
+
+.content-form-wrap {
+  padding-left: 6em;
+  padding-right: 6em;
+  display: flex;
+  height: 90vh;
+  justify-content: space-between;
+  margin-bottom: 20vh;
 }

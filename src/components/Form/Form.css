@@ -1,0 +1,150 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.form-container {
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-top: 16vh;
+  background: #F9C654;
+  box-shadow: 30px 30px 0 0 black;
+}
+
+.form-container h1 {
+  font-family: 'Orbitron';
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 3vh;
+}
+
+.form-element {
+  margin-top: 2vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form-element label {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 3vh;
+  width: 49%;
+}
+
+.form-element input {
+  border-radius: 4px;
+  border: 1px solid black;
+  background: #F9C654;
+  box-sizing: border-box;
+  outline: none;
+  height: 38px;
+  padding-left: 0.5em;
+  margin-top: 0.6vh;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.input-submit-container {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-state-container {
+  position: relative;
+  display: flex;
+  width: 49%;
+  margin-top: 3vh;
+}
+
+#label-input-mail {
+  width: 100%;
+}
+
+#label-input-address {
+  width: 100%;
+}
+
+#label-input-state {
+  margin-top: 0px;
+  width: 100%;
+}
+
+#input-state {
+  border-radius: 4px;
+  border: 1px solid black;
+  background: #F9C654;
+  box-sizing: border-box;
+  outline: none;
+  height: 38px;
+  padding-left: 0.3em;
+  margin-top: 0.6vh;
+  font-family: 'Roboto';
+  font-weight: 400;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.input-state-container::after {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  top: 2.6vh;
+  right: 0.2em;
+  width: 2.6em;
+  height: 3.8vh;
+  border-left: 1px solid black;
+  cursor: pointer;
+  pointer-events: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, black 50%),
+    linear-gradient(135deg, black 50%, transparent 50%);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    100% 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    2.5em 2.5em;
+  background-repeat: no-repeat;
+}
+
+#input-submit {
+  width: 10em;
+  height: 4vh;
+  border: none;
+  text-align: center;
+  padding-top: 0.3vh;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: -0.3em 0.3em 0 0 black;
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+  background: white;
+  color: black;
+  font-family: 'Roboto';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

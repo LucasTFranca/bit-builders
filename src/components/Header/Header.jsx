@@ -6,7 +6,13 @@ function Header() {
   return (
     <div className="header-container">
       <h2>Palestra e Mesa redonda</h2>
-      <h1>Construindo as melhores aplicações com JavaScript moderno</h1>
+      <h1>
+        Construindo as melhores aplicações com
+        {' '}
+        <br />
+        {' '}
+        JavaScript moderno
+      </h1>
       <div className="event-information-container">
         <div>
           <span>
@@ -26,7 +32,7 @@ function Header() {
           </span>
           Sao Paulo
         </div>
-        <button type="button">
+        <button onClick={() => { window.location.href = '#form'; }} type="button">
           INSCREVA-SE
         </button>
       </div>

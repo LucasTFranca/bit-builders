@@ -5,8 +5,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 4vh;
-  margin-top: 8vh;
+  margin-left: 3em;
+  margin-top: 4.5em;
 }
 
 .header-container h1 {
@@ -14,7 +14,6 @@
   font-weight: 700;
   font-weight: bold;
   font-size: 52px;
-  width: 32ch;
   margin-top: 1vh;
   margin-bottom: 2vh;
 }
@@ -28,22 +27,23 @@
 .event-information-container {
   display: flex;
   flex-direction: row;
-  width: 71vh;
+  width: 41em;
   justify-content: space-between;
 }
 
 .event-information-container button {
-  width: 17vh;
+  width: 10em;
   border: none;
   font-family: 'Roboto';
   font-weight: 800;
   font-size: 16px;
-  margin-left: 0.8vh;
-  box-shadow: -0.8vh 0.8vh 0 0 black;
+  cursor: pointer;
+  margin-left: 0.4em;
+  box-shadow: -0.3em 0.3em 0 0 black;
 }
 
 .event-information-container span {
-  margin-right: 1vh;
+  margin-right: 0.3em;
   font-family: 'Roboto';
   font-size: 16px;
   font-weight: 900;
@@ -52,8 +52,8 @@
 .event-information-container div {
   background: #F2B630;
   height: 42px;
-  padding-right: 2vh;
-  padding-left: 2vh;
+  padding-right: 1.2em;
+  padding-left: 1.2em;
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;

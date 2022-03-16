@@ -11,7 +11,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 22vh;
+  width: 13em;
 }
 
 .contact-button {
@@ -26,5 +26,5 @@
 }
 
 #email-button {
-  margin-right: 4vh;
+  margin-right: 3em;
 }

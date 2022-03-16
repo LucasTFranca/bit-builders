@@ -1,4 +1,6 @@
 import React from 'react';
+import Content from '../../components/Content/Content';
+import Form from '../../components/Form/Form';
 import Header from '../../components/Header/Header';
 import Lecture from '../../components/Lecture/Lecture';
 import NavBar from '../../components/NavBar/NavBar';
@@ -13,6 +15,10 @@ function Home() {
       </div>
       <div className="lecture-wrap">
         <Lecture />
+      </div>
+      <div className="content-form-wrap">
+        <Content />
+        <Form />
       </div>
     </div>
   );
