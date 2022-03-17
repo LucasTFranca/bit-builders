@@ -96,6 +96,7 @@ function Form() {
             style={{ borderColor: !errors.phone ? 'black' : 'red' }}
             {...register('phone', {
               maxLength: 15,
+              minLength: 15,
               required: true,
               onChange: ({ target }) => maskNumberApplier(target.value),
             })}
